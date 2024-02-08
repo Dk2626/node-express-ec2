@@ -7,7 +7,7 @@ const port = 3001; // Adjust as needed
 
 app.use(cors()); // Enable CORS
 
-app.get('/api/data', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ message: 'Hello from the backend!' });
 });
 
